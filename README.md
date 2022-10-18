@@ -3,12 +3,12 @@
 + Code is going to be available soon)
 + Requered packages: Tensorflow/PyTorch, NumPy
 
-# PARENTHESIS TASK
+## PARENTHESIS TASK
 ```
 cd parenthesis_task
 ```
 
-## Requirements
+###### Requirements
 ```
 pip install -r requirements.txt
 ```
