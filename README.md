@@ -111,10 +111,10 @@ If you use this code or our results in your research, please cite as appropriate
 
 ## Acknowledgments
 Project is built in parts on top of 
--[AWD-LSTM](https://github.com/salesforce/awd-lstm-lm),
--[scoRNN](https://github.com/SpartinStuff/scoRNN),
--[GORU](https://github.com/jingli9111/GORU-tensorflow), and
--[ISAN](https://github.com/philipperemy/tensorflow-isan-rnn)
+- [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm),
+- [scoRNN](https://github.com/SpartinStuff/scoRNN),
+- [GORU](https://github.com/jingli9111/GORU-tensorflow), and
+- [ISAN](https://github.com/philipperemy/tensorflow-isan-rnn)
 
 
 ```
