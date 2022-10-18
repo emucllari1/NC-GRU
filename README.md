@@ -3,20 +3,17 @@
 + Code is going to be available soon)
 + Requered packages: Tensorflow/PyTorch, NumPy
 
-## PARENTHESIS TASK
+## Parenthesis Task
 ```
 cd parenthesis_task
 ```
 
-### Requirements
-#### Requirements
 ##### Requirements
-###### Requirements
 ```
 pip install -r requirements.txt
 ```
 
-## Training Parenthesis Task from scratch
+##### Training Parenthesis Task from scratch
 To train LSTM model: 
 ```
 bash run_parenthesis_LSTM.sh
@@ -43,12 +40,12 @@ bash run_parenthesis_NCGRU_2.sh
 ```
 
 
-# DENOISE TASK
+## DENOISE TASK
 ```
 cd denoise_task
 ```
 
-## Requirements
+##### Requirements
 ```
 pip install -r requirements.txt
 ```
