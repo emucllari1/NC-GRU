@@ -40,7 +40,7 @@ bash run_parenthesis_NCGRU_2.sh
 ```
 
 
-## DENOISE TASK
+## Denoise Task
 ```
 cd denoise_task
 ```
@@ -50,7 +50,7 @@ cd denoise_task
 pip install -r requirements.txt
 ```
 
-## Training Denoise Task from scratch
+##### Training Denoise Task from scratch
 To train LSTM model: 
 ```
 bash run_denoise_LSTM.sh
@@ -77,17 +77,17 @@ bash run_denoise_NCGRU_2.sh
 ```
 
 
-# CHARACTER-LEVEL PENN TREEBANK
+## Character-level Penn TreeBank
 ```
 cd character_Penn_TreeBank
 ```
 
-## Requirements
+##### Requirements
 ```
 pip install -r requirements.txt
 ```
 
-## Training Denoise Task from scratch
+##### Training Denoise Task from scratch
 To train NC-GRU(U_c) model: 
 ```
 bash run.sh
@@ -110,9 +110,9 @@ If you use this code or our results in your research, please cite as appropriate
 ```
 
 
-## Acknowledgments
+##### Acknowledgments
 Project is built in parts on top of 
-- [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm),
-- [scoRNN](https://github.com/SpartinStuff/scoRNN),
-- [GORU](https://github.com/jingli9111/GORU-tensorflow), and
+- [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm)
+- [scoRNN](https://github.com/SpartinStuff/scoRNN)
+- [GORU](https://github.com/jingli9111/GORU-tensorflow)
 - [ISAN](https://github.com/philipperemy/tensorflow-isan-rnn)
