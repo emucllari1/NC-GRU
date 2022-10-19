@@ -1,8 +1,5 @@
 # Orthogonal Gated Recurrent Unit with Neumann-Cayley Transformation
 
-+ Code is going to be available soon)
-+ Requered packages: Tensorflow/PyTorch, NumPy
-
 ## Parenthesis Task
 ```
 cd parenthesis_task
