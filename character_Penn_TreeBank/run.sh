@@ -1,0 +1,32 @@
+python -u main.py \
+	--model NCGRU \
+    --epochs 100 \
+    --nlayers 1 \
+    --emsize 435 \
+    --nhid 1000 \
+    --alpha 0 \
+    --beta 0 \
+    --dropoute 0 \
+    --dropouth 0 \
+    --dropouti 0 \
+    --dropout 0 \
+    --wdrop 0 \
+    --wdecay 0 \
+    --bptt 100 \
+    --batch_size 32 \
+    --optimizer adam \
+    --optimizer_A adam \
+    --lr 7e-4 \
+    --A_lr 7e-4\
+    --A_clip 0 \
+    --W_clip 0 \
+    --other_clip 0 \
+    --nono 50 \
+    --data /data_directory/pennchar/ \
+    --save PTBC.pt \
+    --when 300 400 \
+    --train_loss_file train_loss \
+    --valid_loss_file valid_loss \
+    --output_file output_file \
+    --neumann \
+    --neumann_order 2 \

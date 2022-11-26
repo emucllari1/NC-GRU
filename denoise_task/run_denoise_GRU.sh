@@ -1,0 +1,11 @@
+python denoise_task.py \
+--model gru \
+--T 400 \
+--iters 10000 \
+--batch_size 128 \
+--hidden_size 100 \
+--capacity 4 \
+--in_out_optimizer adam \
+--in_out_lr 1e-3 \
+--A_optimizer rmsprop \
+--A_lr 1e-4 \

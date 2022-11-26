@@ -1,0 +1,13 @@
+python parenthesis_task.py \
+--model NCGRU \
+--N_TRAIN_STEPS 20000 \
+--MAX_COUNT 5 \
+--HIDDEN_DIM 56 \
+--n_neg_ones 40 \
+--T 200 \
+--BATCH_SIZE 16 \
+--WEIGHT_DECAY 1e-4 \
+--in_out_optimizer adam \
+--in_out_lr 1e-3 \
+--A_optimizer adam \
+--A_lr 1e-3 \
